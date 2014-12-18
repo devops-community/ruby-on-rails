@@ -1,0 +1,16 @@
+name: Ruby on Rails
+description: A boilerplate setup for your Ruby on Rails app.
+image: https://raw.githubusercontent.com/devops-community/ruby-on-rails/master/ror-logo.png
+vars:
+  git_url:
+    label: App Git URL
+    default: 
+    description: The Git URL of the app you want to deploy
+  provider.name:
+    label: Cloud provider
+    default: digitalocean
+    description: The id of the provider you want to use, see http://docs.devo.ps/manual/nodes/#format
+  provider.size:
+    label: Server size
+    default: 66
+    description: Size of the server you will deploy your app on, see http://docs.devo.ps/providers/digitalocean/
